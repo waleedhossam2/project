@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215 66" width="215" height="66" role="img" aria-label="جحفل للعطور">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e7b0"/>
+      <stop offset="0.45" stop-color="#d9b45a"/>
+      <stop offset="1" stop-color="#a97c2a"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&amp;family=Cinzel:wght@600&amp;display=swap');
+    .name {
+      font-family: 'Aref Ruqaa', 'Amiri', 'Reem Kufi', Tahoma, serif;
+      font-weight: 700;
+      font-size: 36px;
+      fill: url(#gold);
+    }
+    .sub {
+      font-family: 'Cinzel', 'Trajan Pro', Georgia, serif;
+      font-weight: 600;
+      font-size: 8.5px;
+      letter-spacing: 3px;
+      fill: #d9b45a;
+    }
+    .spark {
+      fill: #fff7d6;
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: twinkle 3s ease-in-out infinite;
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.15; transform: scale(0.6); }
+      50%      { opacity: 1;    transform: scale(1); }
+    }
+  </style>
+
+  <!-- الشعار: درع ملكي وفيه جوهرة (قوة + فخامة) -->
+  <g transform="translate(160 9)">
+    <path d="M24 1 L45 9 V25 C45 36 36 44 24 47 C12 44 3 36 3 25 V9 Z"
+          fill="none" stroke="url(#gold)" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M24 5.2 L41 11.6 V25 C41 33.6 34.4 40 24 43 C13.6 40 7 33.6 7 25 V11.6 Z"
+          fill="none" stroke="#d9b45a" stroke-opacity="0.55" stroke-width="0.8"/>
+
+    <polygon points="24,12 15,22 24,22" fill="#f3dc9b"/>
+    <polygon points="24,12 33,22 24,22" fill="#d8b25a"/>
+    <polygon points="15,22 24,22 24,37" fill="#b8903f"/>
+    <polygon points="33,22 24,22 24,37" fill="#8f6a24"/>
+
+    <path class="spark" d="M35 10.5 L36 13 L38.5 14 L36 15 L35 17.5 L34 15 L31.5 14 L34 13 Z"/>
+  </g>
+
+  <!-- الاسم -->
+  <text class="name" x="80" y="35" text-anchor="middle">جحفل</text>
+  <text class="sub" x="80" y="60" text-anchor="middle">JAHFAL PERFUMES</text>
+</svg>
